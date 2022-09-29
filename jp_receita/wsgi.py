@@ -1,5 +1,5 @@
 """
-WSGI config for setup project.
+WSGI config for jp_receita project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'setup.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jp_receita.settings')
 
 application = get_wsgi_application()
